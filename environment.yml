@@ -1,0 +1,22 @@
+name: deepfri
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+      - numpy==1.18.5
+      - tensorflow-gpu==2.3.1
+      - scikit-learn==0.23.1
+      - biopython==1.76
+      - h5py==2.10.0
+      - keras-preprocessing==1.1.2
+      - networkx==2.4
+      - decorator==5.1.1
+      - gast==0.3.3
+      - matplotlib
+      - seaborn
+      - pandas
+      - scipy
+      - duckdb
+      conda env create -f environment.yml
